@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ticketlogin\.thaiconnections\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ticketlogin\.thaiconnections\.org$
+RewriteRule ^/?$ "\ http\:\/\/thaiconnections\.org\/OSticket\/upload\/scp\/login\.php" [R=301,L]
+
