@@ -46,14 +46,14 @@ if(OSTINSTALLED!=TRUE){
 define('SECRET_SALT','uNYR9Cat8sNFYIzVsDdvZbr6Luw7Uh6y');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','Victor@thaiconnections.org');
+define('ADMIN_EMAIL','jrideout@thaiconnections.org');
 
 #Mysql Login info
 define('DBTYPE','mysql');
 define('DBHOST','localhost');
-define('DBNAME','thaiull7_osticket');
-define('DBUSER','thaiull7_admin');
-define('DBPASS','}A*T_cpkx#-f');
+define('DBNAME','fcfadmin_ostickets');
+define('DBUSER','fcfadmin_tickets');
+define('DBPASS','STBQJkR3lg18');
 
 # SSL Options
 # ---------------------------------------------------

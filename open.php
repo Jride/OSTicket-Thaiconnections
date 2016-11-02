@@ -14,15 +14,6 @@
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
 
-switch ($_SERVER['HTTP_ORIGIN']) {
-    case 'http://www.thaiconnections.org': case 'https://www.thaiconnections.org': case 'http://main.thaiconnections.org': case 'https://main.thaiconnections.org':
-    header('Access-Control-Allow-Origin: '.$_SERVER['HTTP_ORIGIN']);
-    header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
-    header('Access-Control-Max-Age: 1000');
-    header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
-    break;
-}
-
 require('client.inc.php');
 define('SOURCE','Web'); //Ticket source.
 $ticket = null;

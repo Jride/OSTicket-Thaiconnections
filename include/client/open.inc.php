@@ -24,7 +24,7 @@ if ($info['topicId'] && ($topic=Topic::lookup($info['topicId']))) {
 ?>
 <h1>Open a New Ticket</h1>
 <p>Please fill in the form below to open a new ticket.</p>
-<form id="ticketForm" method="post" action="http://www.thaiconnections.org/OSticket/upload/open.php" enctype="multipart/form-data">
+<form id="ticketForm" method="post" action="http://tickets.fcfadmin.com/open.php" enctype="multipart/form-data">
   <?php csrf_token(); ?>
   <input type="hidden" name="a" value="open">
   <table width="800" cellpadding="1" cellspacing="0" border="0">
